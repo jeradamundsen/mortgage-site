@@ -15,7 +15,7 @@ gulp.task('previewDist', function(){
     }
   });
 })
-gulp.task('deleteDist',['ions'], function(){
+gulp.task('deleteDist',['icons'], function(){
   return del('./docs');
 })
 

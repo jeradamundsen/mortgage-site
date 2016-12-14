@@ -6,8 +6,11 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sumana:400,700|Taviraj:100,200,300,400,500,600" rel="stylesheet">
     <title>Get Your Dream Home</title>
-    <!--build:css /assets/styles/styles.css-->
+    <!--build:css assets/styles/styles.css-->
     <link rel="stylesheet" href="./temp/styles/styles.css">
+    <!--endbuild-->
+    <!--build:js assets/scripts/Vendor.js-->
+    <script src="./temp/scripts/Vendor.js"></script>
     <!--endbuild-->
   </head>
   <body>
@@ -56,7 +59,7 @@
       <div class="wrapper">
         <div class="row row--gutters">
           <div class="row__medium-4 row__medium-4--oposite-float row__medium-4--larger row__b-margin-until-medium">
-              <img src="assets/images/millennials-house.jpeg" alt="our start" />
+              <img class="lazyload" data-src="assets/images/millennials-house.jpeg" alt="our start" />
           </div>
           <div class="row__medium-8 row__medium-8--opposite-float row__medium-8--smaller">
             <div class="generic-content-container">
@@ -70,7 +73,7 @@
           <div class="wrapper">
             <div class="row row--gutters">
               <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
-                  <img src="assets/images/brandon-williams.jpg" alt="our start" />
+                  <img class="lazylaod" data-src="assets/images/brandon-williams.jpg" alt="our start" />
               </div>
               <div class="row__medium-8 row__medium-8--smaller">
                 <div class="generic-content-container">
@@ -91,7 +94,7 @@
         <div class="row__medium-4">
           <div class="feature-item">
             <div>
-              <img src="assets/images/purchase-pic.jpeg" alt="">
+              <img class="lazyload" data-src="assets/images/purchase-pic.jpeg" alt="">
             </div>
             <h3 class="feature-item__title">Purchase</h3>
             <p>You don't need a big down payment to afford the home of your dreams. Find out more about our exclusive purchase programs.</p>
@@ -101,7 +104,7 @@
         <div class="row__medium-4">
           <div class="feature-item">
             <div class="feature-item__photo">
-              <img src="assets/images/refinance-tub.jpeg" alt="">
+              <img class="lazyload" data-src="assets/images/refinance-tub.jpeg" alt="">
             </div>
             <h3 class="feature-item__title">Refinance</h3>
             <p>Paying your mortgage doesn't have to be painful. Find out how to save more money monthly, pay off debt, or take cash-out with your mortgage today.
@@ -112,7 +115,7 @@
         <div class="row__medium-4">
           <div class="feature-item">
           <div>
-            <img src="assets/images/service-guy.jpeg" alt="">
+            <img class="lazyload" data-src="assets/images/service-guy.jpeg" alt="">
           </div>
             <h3 class="feature-item__title">Service Members</h3>
             <p>Thank you for your service. We takepride in helping active duty service members, veterans, and civil servants with our exclusive VA loan programs.
@@ -154,7 +157,7 @@
 Copyright &copy; 2016 Brandon, Inc. All rights reserved.</span><a href="#" class="btn btn--orange">Get in Touch</a></p>
     </div>
   </footer>
-  <!--build:js /assets/scripts/App.js-->
+  <!--build:js assets/scripts/App.js-->
   <script src="/temp/scripts/App.js"></script>
   <!--endbuild-->
   </body>
