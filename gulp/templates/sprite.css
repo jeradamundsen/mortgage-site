@@ -5,7 +5,7 @@ edit gulp/templates/sprite*/
   .icon {
     background-image: url('../../assets/images/sprites/{{{sprite}}}');
   }
-  
+
   {{/first}}
 .icon--{{base}} {
   width: {{width.outer}}px;
