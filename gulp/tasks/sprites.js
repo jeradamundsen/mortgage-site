@@ -21,7 +21,7 @@ gulp.task('beginClean', function(){
 });
 
 gulp.task('createSprite',['beginClean'], function() {
-  return gulp.src('./app/assets/images/icons1/**/*.svg')
+  return gulp.src('./app/assets/images/icons/**/*.svg')
     .pipe(svgSprite(config))
     .pipe(gulp.dest('./app/temp/sprite/'));
 });
