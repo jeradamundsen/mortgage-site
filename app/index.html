@@ -6,12 +6,12 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sumana:400,700|Taviraj:100,200,300,400,500,600" rel="stylesheet">
     <title>Get Your Dream Home</title>
-    <!--build:css assets/styles/styles.css-->
-    <link rel="stylesheet" href="./temp/styles/styles.css">
-    <!--endbuild-->
-    <!--build:js assets/scripts/Vendor.js-->
-    <script src="./temp/scripts/Vendor.js"></script>
-    <!--endbuild-->
+    <!-- build:css assets/styles/styles.css -->
+    <link rel="stylesheet" href="temp/styles/styles.css">
+    <!-- endbuild -->
+    <!-- build:js assets/scripts/Vendor.js -->
+    <script src="/temp/scripts/Vendor.js"></script>
+    <!-- endbuild -->
   </head>
   <body>
     <header class="site-header">
@@ -32,9 +32,9 @@
           </div>
           <nav class="primary-nav primary-nav--pull-left">
             <ul>
-                <li><a href="#our-beginning" id="our-place-link">Our Place</a></li>
+                <li><a href="#our-place" id="our-place-link">Our Place</a></li>
                 <li><a href="#features" id="features-link">Features</a></li>
-                <li><a href="#testimonials" id="get-started-link">Get Started</a></li>
+                <li><a href="#brandon" id="brandon-link"> About Brandon</a></li>
               </ul>
           </nav>
         </div>
@@ -172,6 +172,19 @@ Copyright &copy; 2016 Brandon, Inc. All rights reserved.</span><a href="#" class
     </div>
     <div class="modal__close">
       X
+    </div>
+    <div>
+      <form name="myForm">
+    <label>
+      Enter text:
+      <input type="email" ng-model="field" name="myField" required maxlength="15" />
+   </label>
+   <div ng-messages="myForm.myField.$error" role="alert">
+      <div ng-message="required">Please enter a value for this field.</div>
+     <div ng-message="email">This field must be a valid email address.</div>
+      <div ng-message="maxlength">This field can be at most 15 characters long.</div>
+    </div>
+  </form>
     </div>
   </div>
   <!--build:js assets/scripts/App.js-->
