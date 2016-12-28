@@ -15,7 +15,7 @@
   }
 
   &__photo {
-  border: 1px solid rgba(255, 255, 255, .8)
+  border: 1px solid rgba(255, 255, 255, .8);
 
   @mixin atSmall {
     position: absolute;

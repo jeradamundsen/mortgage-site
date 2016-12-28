@@ -483,7 +483,7 @@ a {
 .big-entry {
   position: relative;
   border-bottom: 10px solid #333;
-  background-color: rgba(255,255,255, .3);
+  
   height: 660px;
   overflow: hidden;
 }
@@ -895,11 +895,16 @@ a {
   background-color: #000000;
 }
 
-.feature-item__photo border: 1px solid rgba(255, 255, 255, .8)
+.feature-item__photo {
+  border: 1px solid rgba(255, 255, 255, .8);
+}
 
-  @mixin atSmall {
-  position: absolute;
-  left: 0;
+@media (min-width: 530px) {
+
+  .feature-item__photo {
+    position: absolute;
+    left: 0;
+  }
 }
 
 .feature-item__title {
