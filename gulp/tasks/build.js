@@ -12,7 +12,7 @@ gulp.task('previewDist', function(){
   browserSync.init({
     notify: false,
     server: {
-      baseDir: "docs"
+      baseDir: "/docs"
     }
   });
 })
