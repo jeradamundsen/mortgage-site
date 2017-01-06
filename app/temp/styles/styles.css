@@ -933,7 +933,7 @@ a {
 edit gulp/templates/sprite*/
 
 .icon {
-    background-image: url('/assets/images/sprites/sprite-63a3d2c2.svg');
+    background-image: url('../../assets/images/sprites/sprite-63a3d2c2.svg');
   }
 
 .icon--clear-view-escapes {
@@ -973,8 +973,8 @@ edit gulp/templates/sprite*/
 }
 
 .icon--linkedin {
-  width: 60px;
-  height: 60px;
+  width: 841.891px;
+  height: 595.279px;
   background-position: 0 0;
 }
 
@@ -1379,4 +1379,14 @@ edit gulp/templates/sprite*/
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.instagram {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
