@@ -68,6 +68,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	alert("this is a test for webpack automation with gulp");
 	var mobileMenu = new _MobileMenu2.default();
 	new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 	new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "65%");
@@ -11639,9 +11640,11 @@
 	  _createClass(Modal, [{
 	    key: 'events',
 	    value: function events() {
+	      //clicking the open modal btn
 	      this.openModalButton.click(this.displayModal.bind(this));
+	      //clicking the close modal x
 	      this.closeModalButton.click(this.closeModal.bind(this));
-	      //user presses any key//
+	      //pushing the escape key
 	      (0, _jquery2.default)(document).keyup(this.keyPressHandler.bind(this));
 	    }
 	  }, {
@@ -11654,13 +11657,13 @@
 	  }, {
 	    key: 'displayModal',
 	    value: function displayModal() {
-	      this.modal.addClass('modal--is-visible');
+	      this.modal.addClass("modal--is-visible");
 	      return false;
 	    }
 	  }, {
 	    key: 'closeModal',
 	    value: function closeModal() {
-	      this.modal.removeClass('modal--is-visible');
+	      this.modal.removeClass("modal--is-visible");
 	    }
 	  }]);
 
